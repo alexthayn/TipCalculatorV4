@@ -76,8 +76,7 @@
         android:layout_below="@id/label_tip"
         android:layout_alignLeft="@id/label_bill"
         android:layout_alignRight="@id/label_bill"
-        android:text="@string/label_total"
-        />
+        android:text="@string/label_total"/>
 
     <TextView
         android:id="@+id/amount_total"
@@ -86,12 +85,5 @@
         android:layout_alignBottom="@id/label_total"
         android:layout_alignRight="@+id/amount_bill"/>
 
-    <Button
-        style="@style/ButtonStyle"
-        android:layout_below="@id/label_total"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        android:text="@string/button_calculate"
-        android:onClick="calculate"/>
 
 </RelativeLayout>
